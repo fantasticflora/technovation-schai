@@ -1,5 +1,3 @@
-# technovation-schai
-<!DOCTYPE html>
 <html>
 <div id="Page1" class="page" style="">
   <div style="background-color:white; padding:10px;">
@@ -84,30 +82,6 @@
 </div>
 <div id="Page4" class="page" style="display:none">
   <h1 style="font-family:verdana; text-align:center; font-size:280%;">Money Maker</h1>
-  <p>
-    Please fill out the form and press continue. Once again, this material will not be disseminated.
-  </p>
-  <form>
-    First name:
-    <br>
-    <input type="text" name="firstname">
-    <br> Last name:
-    <br>
-    <input type="text" name="lastname">
-    <br> Address:
-    <br>
-    <input type="text" name="address">
-    <br> City:
-    <br>
-    <input type="text" name="city">
-    <br> State:
-    <br>
-    <input type="text" name="state">
-    <br> Country:
-    <br>
-    <input type="text" name="country">
-    <br>
-  </form>
   <span onclick="show('Page5');">Continue</span>
 </div>
 
@@ -184,3 +158,11 @@
   <span onclick="show('Page9');">DEFAULT MOVING ON BUTTON</span>
 </div>
 </html>
+
+<css>
+span {
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer;
+}
+</css>
