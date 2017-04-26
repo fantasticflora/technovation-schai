@@ -1,19 +1,16 @@
-<html>
 <div id="Page1" class="page" style="">
   <div style="background-color:white; padding:10px;">
-    <h1 style="font-family:verdana; text-align:center; font-size:280%;">Money Maker</h1>
-    <h2 style="font-family:courier; text-align:center;">How to be rich in minutes!</h2>
-    <h4 style="text-align:center;">Ever wondered how to get rich quick?</h4>
+    <h1 style="font-family:verdana; text-align:center; font-size:280%;">SCHAI</h1>
+    <h2 style="font-family:courier; text-align:center;">Safe, Clean, Health, Activity Installment</h2>
+    <h4 style="text-align:center;">Have you ever experienced sudden changes in temperaure?<br> We all have(don't worry)</h4>
     <h4 style="text-align:center;">This is the Answer! </h4>
-    <div style="background-color:silver;color:black;padding:25px;">
-      <p>People have often struggled with money, and with our current declining economy, the problem isn't going to get any better. Lately, with the increase in taxes for the federal government and a higher cost of living, many people are struggling to make
-        enough to live. </p>
+    <div style="background-color:aqua;color:black;padding:25px;">
+      <p style="text-align:center;">Our app informs you about any possible allegens in the air and plan your activites accordingly. </p>
     </div>
-    <h4 style="text-align:center;">Why wait and struggle along with everyone else if you can elevate</h4>
-    <h3 style="text-align:center;">YOURSELF</h3>
-    <h4 style="text-align:center;">higher standing?</h4>
-    <h2 style="text-align:center; background-color:silver;color:black;padding:25px;">This is the solution you've been waiting for! </h2>
-    <p style="text-align: center;">I want to become <span onclick="show('Page2');">wealthy!</span>
+    <h4 style="text-align:center;">Why struggle in horrible weather if you can</h4>
+    <h3 style="text-align:center;">choose SCHAI?</h3>
+    <h2 style="text-align:center; background-color:aqua;color:black;padding:25px;">This is the solution you've been waiting for! </h2>
+    <p style="text-align: center;">To continue, click <span onclick="show('Page2');">here!</span>
     </p>
   </div>
 </div>
@@ -21,37 +18,41 @@
   <div style="font-family:verdana; background-color:white; padding:10px;">
     <div style="text-align: center;">
       <h1>
-     Money Maker
+     SCHAI
      </h1>
       <h3>
-     How to Begin your new Life!
+     Today's Weather
      </h3>
     </div>
   </div>
   <norm>
     <div style="font-family:verdana; font-size:100%; background-color:white; padding:15px;">
+      <iframe
+  style="width: 100%; height: 300px"
+  src="https://openweathermap.org/api/pollution/co/embedded/">
+</iframe>
       <p>
-        At MoneyMaker©, we value our fellow people. We understand that you may have some doubts on our ability to help you. If you are not satisfied with us, we will gladly assist you in choosing a better financial plan, or retract the money given to you.
+        If today is sunny...
       </p>
       <p>
-        To prevent unlawful use of information, all information entered will not be disseminated. Additionally, we will not release information to any third-party systems.
+        Pollen Count is about 10ppm
       </p>
       <p>
-        To prevent inaccurate information put in our servers, we will assign you an assistant. The Bot will be here to prevent errors.
+        This means that unless you have severe asthma or allergies, you will blossom today in the sun. Also, stay hydrated to avoid heat stroke. 
       </p>
       <p>
-        Hello, I am Bot A-7713, also known as Bot FLORA. I was assigned to you at
+        This was updated on
       </p>
       <p id="date"></p>
       <p>
-        I am here to help you with your new financial profile.
+        Some activities: play a sport, have a picnic, go to a beach, drink a cold smoothie!
       </p>
       <p>
-        Please click on "I agree with the terms" if you agree with the above terms and would like to continue.
+       Doesn't seem right?
       </p>
     </div>
   </norm>
-  <p style="text-align: center; background-color:silver;color:black;padding:25px;"><span onclick="show('Page3');">I agree with the terms</span>
+  <p style="text-align: center; background-color:silver;color:black;padding:25px;"><span onclick="show('Page3');">Click here</span>
   </p>
   <script>
     document.getElementById("date").innerHTML = Date();
@@ -60,109 +61,76 @@
 </div>
 <div id="Page3" class="page" style="display:none">
   <div style="background-color:white; padding:10px;">
-    <h1 style="font-family:verdana; text-align:center; ">Money Maker</h1>
+    <h1 style="font-family:verdana; text-align:center; ">Today's Weather </h1>
     <div style="font-family:verdana; font-size:90%; background-color:white; padding:15px;">
-      <p>
-        Thanks for choosing Money Maker! We are here to be your one-way ticket to a luxurious life, and the easy road to relaxation. You will be able to attend opulent, five-star parties, and get immersed with life around the big names. Who knew there was an
-        easy route for life?
+    <h2 style="font-family:verdana; text-align:center; ">Raining</h2>
+     <p>
+        Today is raining, so be sure to take an umbrella or a raincoat! People with asthma should watch careful today as well as people with pollen allergies, as it increases with humidity. 
       </p>
       <p>
-        Once again, Thank you for choosing Money Maker! As your assistant, I am here to help you through the process of raising money. To receive the money, please fill out the form on the next page. None of the information will be disseminated, as stated by
-        our terms of agreement.
+        If it's particularly cold, be sure to keep warm with a jacket or coat to avoid getting hypothermia. If you happen to have Seasonal Affected Disorder, find enjoyable activites to do, such as aerobic exercises. 
       </p>
       <p>
-        Please click 'continue to form' to complete your money recieving process.
+        Some activites to try: baking, watching movies, indoor exercises, and build a fort. 
       </p>
       <p>
-        Bot Flora
+        Please click 'continue' if today's weather is different 
       </p>
     </div>
-    <span style="text-align:center" onclick="show('Page4');">Continue to Form</span>
+    <span style="text-align:center" onclick="show('Page4');">Continue</span>
   </div>
 </div>
 <div id="Page4" class="page" style="display:none">
-  <h1 style="font-family:verdana; text-align:center; font-size:280%;">Money Maker</h1>
+  <h1 style="font-family:verdana; text-align:center; font-size:280%;">Today's weather: Cloudy and cold</h1>
+  <p>
+    Make sure to bring a hat or ear muffs to cover your ears! Also remember to bundle up to avoid frostbites and the flu. 
+  </p>
+  <p>
+  Activities to try: Go for a run to warm up, go for a hike, cook an elaborate, warm dinner. 
+  </p>
   <span onclick="show('Page5');">Continue</span>
 </div>
 
 <div id="Page5" class="page" style="display:none">
   <div style="background-color:white; padding:10px;">
-    <h1 style="font-family:verdana; text-align:center; font-size:280%;">Money Maker</h1>
+    <h1 style="font-family:verdana; text-align:center; font-size:280%;">If it's snowing...</h1>
     <p>
-      Thank you for filling out the form. The default amount of money selected is: (250,000.00) in (US Dollars). Please refrain from changing this amount at processing and checkout, because it is easier to test smaller amounts of money in case of accidental
-      error.
+      Asthma and pollen tends to increase with snowy weather. Arthritis pains also increase with colder weather. Remember to stay hydrated, as not many people think about it.  
     </p>
     <p>
-      Due to inflation and other economic effects, we are not able to supply you with any immediate order of over (999,999.99) in US Dollars. Those orders will not be processed, and will not be delivered.
+      Activities: skiing, tubing, snowboarding, ice-skating, building a snowman, lighting the fireplace, make a cup of cocoa. 
     </p>
-    <p>
-      Instead, you may place multiple orders, each at least one week (7 days) apart, and build your fortune from there.
-    </p>
-    <p>
-      Later on, you will also be able to invest in stocks, and be able to maintain your wealth and give it a way to grow. We will have registered professionals assist you with the investment process.
-    </p>
-    <p>
-      Bot Flora
-    </p>
+    
+   
+  
   </div>
-  <div style="background-color:silver; padding:15px; text-align:center">
-    <span onclick="show('Page6');">I Agree</span>
+  <div style="background-color:aqua; padding:15px; text-align:center">
+    <span onclick="show('Page6');">Continue</span>
   </div>
 </div>
 
 <div id="Page6" class="page" style="display:none">
-  <h1 style="font-family:verdana; text-align:center; font-size:280%;">Money Maker</h1>
+  <h1 style="font-family:verdana; text-align:center; font-size:280%;">SCHAI</h1>
   <p>
-    Also, if would like, you could put in contact information in case we need to reach you during the processing and transaction. You do not need to place your information, but it would mean an automatic cancellation if there is any error in your order.
+    Thanks for using SCHAI. We hope you had a wonderful experience that helped you through any weather changes. If not, we will work on improving.
   </p>
   <p>
-    If you wish to place your contact information, please fill out your information below. You do not need to fill out all of the contact information, and two contact methodds are usually adequate.
+    If you wish to give us feedback or have questions, fill out the following form.
   </p>
   <br> Email:
   <br>
   <input type="text" name="email">
+  <br> Comments:
   <br>
-  <br> Phone number:
-  <br>
-  <input type="text" name="phonenum">
-  <br>
-  <br> Text number:
-  <br>
-  <input type="text" name="textnum">
-  <br>
-  <br> WeChat ID:
-  <br>
-  <input type="text" name="wechatid">
-  <br>
-  <br> Google Hangout:
-  <br>
-  <input type="text" name="googlehangout">
-  <br>
-  <span onclick="show('Page7');">Go to Transaction</span>
-</div>
-
-<div id="Page7" class="page" style="display:none">
+ <input type="text" name="comments">
   <p>
-    
-  </p>
+  Come back soon!
   <p>
-
-  </p>
-  <span onclick="show('Page8');">DEFAULT MOVING ON BUTTON</span>
-</div>
+ </div>
+  <div style="background-color:silver; padding:15px; text-align:center">
+    <span onclick="show('Page8');">Finish Up</span>
+  </div>
 
 <div id="Page8" class="page" style="display:none">
-  <p>
-    Page 8
-  </p>
-  <span onclick="show('Page9');">DEFAULT MOVING ON BUTTON</span>
-</div>
-</html>
-
-<css>
-span {
-    text-decoration:underline;
-    color:blue;
-    cursor:pointer;
-}
-</css>
+  <h1 style="font-family:verdana; text-align:center; font-size:280%;">Bye!</h1>
+ 
